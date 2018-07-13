@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4C5D0EE01FF6537A0081B044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EDF1FF6537A0081B044 /* AppDelegate.swift */; };
-		4C5D0EE21FF6537B0081B044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE11FF6537B0081B044 /* ViewController.swift */; };
 		4C5D0EE51FF6537B0081B044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE31FF6537B0081B044 /* Main.storyboard */; };
 		4C5D0EE81FF6537B0081B044 /* firstprec.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE61FF6537B0081B044 /* firstprec.xcdatamodeld */; };
 		4C5D0EEA1FF6537B0081B044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE91FF6537B0081B044 /* Assets.xcassets */; };
 		4C5D0EED1FF6537B0081B044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D0EEB1FF6537B0081B044 /* LaunchScreen.storyboard */; };
 		4C5D0EF81FF6537B0081B044 /* firstprecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EF71FF6537B0081B044 /* firstprecTests.swift */; };
 		4C5D0F031FF6537B0081B044 /* firstprecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0F021FF6537B0081B044 /* firstprecUITests.swift */; };
+		4C5D0F101FF656FD0081B044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE11FF6537B0081B044 /* ViewController.swift */; };
+		4C5D0F111FF656FE0081B044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE11FF6537B0081B044 /* ViewController.swift */; };
+		4C5D0F121FF65DC70081B044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D0EE11FF6537B0081B044 /* ViewController.swift */; };
+		4CCA1BF320F37335000C7278 /* Datepicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCA1BF220F37335000C7278 /* Datepicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		4C5D0EFE1FF6537B0081B044 /* firstprecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstprecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5D0F021FF6537B0081B044 /* firstprecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstprecUITests.swift; sourceTree = "<group>"; };
 		4C5D0F041FF6537B0081B044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCA1BF220F37335000C7278 /* Datepicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datepicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				4C5D0EEB1FF6537B0081B044 /* LaunchScreen.storyboard */,
 				4C5D0EEE1FF6537B0081B044 /* Info.plist */,
 				4C5D0EE61FF6537B0081B044 /* firstprec.xcdatamodeld */,
+				4CCA1BF220F37335000C7278 /* Datepicker.swift */,
 			);
 			path = firstprec;
 			sourceTree = "<group>";
@@ -191,7 +196,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = vian;
 				TargetAttributes = {
 					4C5D0EDB1FF6537A0081B044 = {
@@ -262,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5D0EE21FF6537B0081B044 /* ViewController.swift in Sources */,
+				4C5D0F121FF65DC70081B044 /* ViewController.swift in Sources */,
 				4C5D0EE81FF6537B0081B044 /* firstprec.xcdatamodeld in Sources */,
 				4C5D0EE01FF6537A0081B044 /* AppDelegate.swift in Sources */,
+				4CCA1BF320F37335000C7278 /* Datepicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5D0F101FF656FD0081B044 /* ViewController.swift in Sources */,
 				4C5D0EF81FF6537B0081B044 /* firstprecTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5D0F111FF656FE0081B044 /* ViewController.swift in Sources */,
 				4C5D0F031FF6537B0081B044 /* firstprecUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +341,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -340,6 +349,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,6 +400,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +408,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = firstprec/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vianney.firstprec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = firstprec/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vianney.firstprec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
